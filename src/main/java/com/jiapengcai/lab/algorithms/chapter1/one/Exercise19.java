@@ -1,7 +1,4 @@
-package com.jiapengcai.lab.algorithms.chapter1.one;/**
- * @author caijiapeng
- * @version created on 2020/5/9 17:01
- */
+package com.jiapengcai.lab.algorithms.chapter1.one;
 
 import edu.princeton.cs.algs4.StdOut;
 
