@@ -1,5 +1,7 @@
 package com.jiapengcai.lab.algorithms.chapter1.one;
 
+import edu.princeton.cs.algs4.StdOut;
+
 /**
  * @author caijiapeng
  * @version created on 2020/5/7 18:20
@@ -7,8 +9,8 @@ package com.jiapengcai.lab.algorithms.chapter1.one;
 public class Exercise8 {
 
     public static void main(String[] args) {
-        System.out.println('b');
-        System.out.println('b' + 'c');
-        System.out.println((char) ('a' + 4));
+        StdOut.println('b');
+        StdOut.println('b' + 'c');
+        StdOut.println((char) ('a' + 4));
     }
 }

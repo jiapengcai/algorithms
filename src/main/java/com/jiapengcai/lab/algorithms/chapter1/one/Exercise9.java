@@ -1,5 +1,7 @@
 package com.jiapengcai.lab.algorithms.chapter1.one;
 
+import edu.princeton.cs.algs4.StdOut;
+
 /**
  * @author caijiapeng
  * @version created on 2020/5/7 18:23
@@ -13,7 +15,7 @@ public class Exercise9 {
     }
 
     private static void a(int n) {
-        System.out.println(Integer.toBinaryString(n));
+        StdOut.println(Integer.toBinaryString(n));
     }
 
     private static void b(int n) {
@@ -21,6 +23,6 @@ public class Exercise9 {
         for (int i = n; i > 0; i /= 2) {
             s = (i % 2) + s;
         }
-        System.out.println(s);
+        StdOut.println(s);
     }
 }

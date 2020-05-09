@@ -1,5 +1,7 @@
 package com.jiapengcai.lab.algorithms.chapter1.one;
 
+import edu.princeton.cs.algs4.StdOut;
+
 /**
  * @author caijiapeng
  * @version created on 2020/5/8 11:07
@@ -15,7 +17,7 @@ public class Exercise12 {
             a[i] = a[a[i]];
         }
         for (int i = 0; i < 10; i++) {
-            System.out.println(a[i]);
+            StdOut.println(a[i]);
         }
     }
 }

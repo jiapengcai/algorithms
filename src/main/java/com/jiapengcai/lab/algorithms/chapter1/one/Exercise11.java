@@ -1,5 +1,7 @@
 package com.jiapengcai.lab.algorithms.chapter1.one;
 
+import edu.princeton.cs.algs4.StdOut;
+
 /**
  * @author caijiapeng
  * @version created on 2020/5/7 18:29
@@ -15,17 +17,17 @@ public class Exercise11 {
     }
 
     private static void printBooleanMatrix(boolean[][] matrix) {
-        System.out.print(" ");
+        StdOut.print(" ");
         for (int i = 0; i < matrix[0].length; i++) {
-            System.out.print(" " + i);
+            StdOut.print(" " + i);
         }
-        System.out.println();
+        StdOut.println();
         for (int i = 0; i < matrix.length; i++) {
-            System.out.print(i);
+            StdOut.print(i);
             for (int j = 0; j < matrix[0].length; j++) {
-                System.out.print(" " + (matrix[i][j] ? "*" : " "));
+                StdOut.print(" " + (matrix[i][j] ? "*" : " "));
             }
-            System.out.println();
+            StdOut.println();
         }
     }
 }
